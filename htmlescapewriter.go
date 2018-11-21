@@ -10,6 +10,7 @@ type htmlEscapeWriter struct {
 }
 
 func (w *htmlEscapeWriter) Write(b []byte) (int, error) {
+	return w.w.Write(b)
 	if bytes.IndexByte(b, '<') < 0 &&
 		bytes.IndexByte(b, '>') < 0 &&
 		bytes.IndexByte(b, '"') < 0 &&
