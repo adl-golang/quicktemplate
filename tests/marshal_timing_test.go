@@ -8,8 +8,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/valyala/quicktemplate"
-	"github.com/valyala/quicktemplate/testdata/templates"
+	"github.com/adl-golang/quicktemplate"
+	"github.com/adl-golang/quicktemplate/testdata/templates"
 )
 
 func init() {
